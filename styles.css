@@ -187,7 +187,7 @@ nav ul li {
     padding: 20px;
 }
 /* Estilos para la versión móvil */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1500px) {
     header {
         padding: 10px;
     }
