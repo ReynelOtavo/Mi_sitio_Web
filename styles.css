@@ -187,24 +187,51 @@ nav ul li {
     padding: 20px;
 }
 /* Estilos para la versión móvil */
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 768px) {
+    /* Estilos para el encabezado en versión móvil */
     header {
         padding: 10px;
     }
 
+    /* Estilos para la navegación en versión móvil */
     nav ul {
-        text-align: center;
+        
+       
+text-align: center;
         padding-top: 10px;
     }
 
     nav ul li {
         display: block;
-        margin-bottom: 10px;
+        
+       
+margin-bottom: 10px;
     }
 
-    /* Estilos para el contenido en móviles */
+    /* Estilos para el botón de inicio de sesión en versión móvil */
+    .login-button {
+        margin-top: 10px;
+    }
+
+    /* Estilos para el contenido en versión móvil */
     .content {
         padding: 10px;
     }
-}
 
+    /* Estilos para el título en versión móvil */
+    
+    .
+.content h1 {
+        font-size: 24px;
+    }
+
+    /* Estilos para el subtítulo en versión móvil */
+    .content h2 {
+        font-size: 18px;
+    }
+
+    /* Estilos para el párrafo en versión móvil */
+    .content p {
+        font-size: 16px;
+    }
+}
